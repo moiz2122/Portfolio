@@ -31,7 +31,7 @@ const HeroSection = () => {
 
         {/* Resume */}
         <a
-          href="./Frontend_Developer_MUHAMMAD_MOIZ.pdf"
+          href="./Frontend_Developer_MUHAMMADMOIZ.pdf"
           rel="noopener noreferrer"
           target="blank"
           className="hover:bg-green-800/30 border border-white/50  rounded-lg p-6 transition-all duration-300 hover:shadow-lg"
