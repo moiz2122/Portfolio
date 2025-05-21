@@ -3,8 +3,8 @@ import "./App.css";
 import TypingHeading from "./TypingHeading";
 const HeroSection = () => {
   return (
-    <section className="bg-grid min-h-screen flex flex-col items-center justify-center text-white px-4">
-      <TypingHeading text="Hi I’m Muhammad Moiz" speed={100} />
+    <section className=" bg-grid min-h-[130vh] flex flex-col items-center justify-center text-white px-4 pt-12">
+      <TypingHeading text="Hi I’m Muhammad Moiz" speed={300} />
       <p className="text-center max-w-2xl text-lg text-gray-300 mb-10 mt-4 px-2">
         I’m a Frontend Developer crafting responsive, high-performance web
         applications with modern technologies—focused on clean design,
@@ -16,7 +16,7 @@ const HeroSection = () => {
         <a
           href="https://www.linkedin.com/in/muhammad-moiz-frontend-developer/"
           target="blank"
-          className="hover:bg-blue-800/30 border border-white/50 rounded-lg p-6 duration-300 transition-all hover:shadow-lg"
+          className="hover:bg-blue-800/30 border border-white/50 rounded-lg p-6 duration-300 transition-all hover:shadow-lg hover:-translate-y-1"
         >
           <div className="">
             <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
@@ -34,7 +34,7 @@ const HeroSection = () => {
           href="./Frontend_Developer_MUHAMMADMOIZ.pdf"
           rel="noopener noreferrer"
           target="blank"
-          className="hover:bg-green-800/30 border border-white/50  rounded-lg p-6 transition-all duration-300 hover:shadow-lg"
+          className="hover:bg-green-800/30 border border-white/50  rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
         >
           <div>
             <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
@@ -50,7 +50,7 @@ const HeroSection = () => {
         <a
           href="https://github.com/moiz2122"
           target="blank"
-          className="hover:bg-purple-800/30 border border-white/50 hover:border-purple-600 rounded-lg p-6 transition-all duration-300 hover:shadow-lg"
+          className="hover:bg-purple-800/30 border border-white/50 rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
         >
           <div className="">
             <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
@@ -64,10 +64,10 @@ const HeroSection = () => {
 
         {/* Contact */}
         <a
-          onClick={(e) => e.preventDefault()}
-          href=""
+          href="https://wa.me/923159542469"
+          rel="noopener noreferrer"
           target="blank"
-          className="hover:bg-orange-800/30 border border-white/50 rounded-lg p-6 transition-all duration-300 hover:shadow-lg"
+          className="hover:bg-orange-800/30 border border-white/50 rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
         >
           <div className="">
             <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
@@ -78,6 +78,33 @@ const HeroSection = () => {
               opportunities.
             </p>
           </div>
+        </a>
+      </div>
+      <h3 className="font-['Poppins'] mt-5 text-4xl sm:text-6xl font-bold text-white">
+        Pr<span className="text-orange-400">o</span>jects
+      </h3>
+
+      {/* Projects started */}
+      <div className=" mt-5 grid grid-cols-1 sm:grid-cols-2 sm:px-0 md:grid-cols-8 px-5 sm:gap-4 gap-4 w-full max-w-5xl">
+        <a
+          href="https://wood-land-five.vercel.app/"
+          target="blank"
+          className="sm:col-span-1 md:col-span-3 md:col-start-1 bg-[url(./src/assets/WoodlandThumbnil.png)] bg-cover bg-center bg-clip-border bg-blend-overlay hover:bg-black/60 rounded-lg px-6 py-5 transition-all duration-200 ease-in hover:shadow-2xl group min-h-[180px] flex items-center justify-center hover:-translate-y-1 "
+        >
+          <h3 className="text-transparent group-hover:text-white text-5xl transition-all duration-300 ease-in group-hover:scale-105">
+            WoodLand
+          </h3>
+        </a>
+
+        {/* Project2 */}
+        <a
+          href="https://statice-eccomerce.vercel.app/"
+          target="blank"
+          className="sm:col-span-1 md:col-span-3 md:col-start-6 bg-[url(./src/assets/WoodlandThumbnil.png)] bg-cover bg-center bg-clip-border bg-blend-overlay hover:bg-black/60 rounded-lg px-6 py-5 transition-all duration-200 ease-in hover:shadow-2xl group min-h-[180px] flex items-center justify-center hover:-translate-y-1"
+        >
+          <h3 className="text-transparent group-hover:text-white text-5xl transition-all duration-300 ease-in group-hover:scale-105">
+            Static Eccomerce site
+          </h3>
         </a>
       </div>
     </section>

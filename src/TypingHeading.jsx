@@ -21,9 +21,9 @@ const TypingHeading = ({ text, speed }) => {
   }, [text, speed]);
 
   return (
-    <h1 className="text-4xl sm:text-5xl font-bold text-white">
+    <h1 className="font-['Poppins'] text-4xl sm:text-5xl font-bold text-white">
       {displayedText}
-      <span className="animate-pulse">|</span>
+      <span className="animate-pulse text-orange-400">|</span>
     </h1>
   );
 };

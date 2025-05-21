@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
 .bg-grid {
   background-color: #000;
   background-image: linear-gradient(
