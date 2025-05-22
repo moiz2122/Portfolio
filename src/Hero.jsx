@@ -89,7 +89,7 @@ const HeroSection = () => {
         <a
           href="https://wood-land-five.vercel.app/"
           target="blank"
-          className="sm:col-span-1 md:col-span-3 md:col-start-1 bg-[url(./src/assets/WoodlandThumbnil.png)] bg-cover bg-center bg-clip-border bg-blend-overlay hover:bg-black/60 rounded-lg px-6 py-5 transition-all duration-200 ease-in hover:shadow-2xl group min-h-[180px] flex items-center justify-center hover:-translate-y-1 "
+          className="sm:col-span-1 md:col-span-3 md:col-start-1 bg-[url(public/WoodlandThumbnil.png)] bg-cover bg-center bg-clip-border bg-blend-overlay hover:bg-black/60 rounded-lg px-6 py-5 transition-all duration-200 ease-in hover:shadow-2xl group min-h-[180px] flex items-center justify-center hover:-translate-y-1 "
         >
           <h3 className="text-transparent group-hover:text-white text-5xl transition-all duration-300 ease-in group-hover:scale-105">
             WoodLand
@@ -100,7 +100,7 @@ const HeroSection = () => {
         <a
           href="https://statice-eccomerce.vercel.app/"
           target="blank"
-          className="sm:col-span-1 md:col-span-3 md:col-start-6 bg-[url(./src/assets/WoodlandThumbnil.png)] bg-cover bg-center bg-clip-border bg-blend-overlay hover:bg-black/60 rounded-lg px-6 py-5 transition-all duration-200 ease-in hover:shadow-2xl group min-h-[180px] flex items-center justify-center hover:-translate-y-1"
+          className="sm:col-span-1 md:col-span-3 md:col-start-6 bg-[url(public/WoodlandThumbnil.png)] bg-cover bg-center bg-clip-border bg-blend-overlay hover:bg-black/60 rounded-lg px-6 py-5 transition-all duration-200 ease-in hover:shadow-2xl group min-h-[180px] flex items-center justify-center hover:-translate-y-1"
         >
           <h3 className="text-transparent group-hover:text-white text-5xl transition-all duration-300 ease-in group-hover:scale-105">
             Static Eccomerce site
