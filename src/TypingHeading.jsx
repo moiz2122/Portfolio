@@ -8,7 +8,7 @@ const TypingHeading = ({ text, speed }) => {
     let timeoutId;
 
     const type = () => {
-      if (index < text.length - 1) {
+      if (index < text.length -1) {
         setDisplayedText((prev) => prev + text[index]);
         index++;
         timeoutId = setTimeout(type, speed);

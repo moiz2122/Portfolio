@@ -6,7 +6,7 @@ import TypingHeading from "./TypingHeading";
 const HeroSection = () => {
   return (
     <section className=" bg-grid min-h-[130vh] flex flex-col items-center justify-center text-white px-4 pt-12">
-      <TypingHeading text="Hi I’m Muhammad Moiz" speed={300} />
+      <TypingHeading text="Hi I’m Muhammad Moiz" speed={100} />
       <p className="text-center max-w-2xl text-lg text-gray-300 mb-10 mt-4 px-2">
         I’m a Frontend Developer crafting responsive, high-performance web
         applications with modern technologies—focused on clean design,
