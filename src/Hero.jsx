@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import Woodlandbg from "../public/WoodlandThumbnil.png";
+import staticEccomerce from "../public/staticEccomerce.png";
 import TypingHeading from "./TypingHeading";
 const HeroSection = () => {
   return (
@@ -87,9 +89,10 @@ const HeroSection = () => {
       {/* Projects started */}
       <div className=" mt-5 grid grid-cols-1 sm:grid-cols-2 sm:px-0 md:grid-cols-8 px-5 sm:gap-4 gap-4 w-full max-w-5xl">
         <a
+          style={{ backgroundImage: `url(${Woodlandbg})` }}
           href="https://wood-land-five.vercel.app/"
           target="blank"
-          className="sm:col-span-1 md:col-span-3 md:col-start-1 bg-[url(public/WoodlandThumbnil.png)] bg-cover bg-center bg-clip-border bg-blend-overlay hover:bg-black/60 rounded-lg px-6 py-5 transition-all duration-200 ease-in hover:shadow-2xl group min-h-[180px] flex items-center justify-center hover:-translate-y-1 "
+          className="sm:col-span-1 md:col-span-3 md:col-start-1 bg-cover bg-center bg-clip-border bg-blend-overlay hover:bg-black/60 rounded-lg px-6 py-5 transition-all duration-200 ease-in hover:shadow-2xl group min-h-[180px] flex items-center justify-center hover:-translate-y-1 "
         >
           <h3 className="text-transparent group-hover:text-white text-5xl transition-all duration-300 ease-in group-hover:scale-105">
             WoodLand
@@ -98,9 +101,10 @@ const HeroSection = () => {
 
         {/* Project2 */}
         <a
+          style={{ backgroundImage: `url(${staticEccomerce})` }}
           href="https://statice-eccomerce.vercel.app/"
           target="blank"
-          className="sm:col-span-1 md:col-span-3 md:col-start-6 bg-[url(public/WoodlandThumbnil.png)] bg-cover bg-center bg-clip-border bg-blend-overlay hover:bg-black/60 rounded-lg px-6 py-5 transition-all duration-200 ease-in hover:shadow-2xl group min-h-[180px] flex items-center justify-center hover:-translate-y-1"
+          className="sm:col-span-1 md:col-span-3 md:col-start-6 bg-cover bg-center bg-clip-border bg-blend-overlay hover:bg-black/60 rounded-lg px-6 py-5 transition-all duration-200 ease-in hover:shadow-2xl group min-h-[180px] flex items-center justify-center hover:-translate-y-1"
         >
           <h3 className="text-transparent group-hover:text-white text-5xl transition-all duration-300 ease-in group-hover:scale-105">
             Static Eccomerce site
